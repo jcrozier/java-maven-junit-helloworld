@@ -47,6 +47,9 @@
       </exclusions>
     </dependency>
   </dependencies>
+ <scm>        
+  <developerConnection>scm:svn:https://github.com/jcrozier/java-maven-junit-helloworld.git</developerConnection>
+ </scm>
   <build>
     <plugins>
       <plugin>
