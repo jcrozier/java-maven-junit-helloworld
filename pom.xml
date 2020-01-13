@@ -48,7 +48,7 @@
     </dependency>
   </dependencies>
  <scm>        
-  <developerConnection>scm:svn:https://github.com/jcrozier/java-maven-junit-helloworld.git</developerConnection>
+  <developerConnection>scm:svn:https://${env.GIT_USERNAME}:${env.GIT_PASSWORD}@github.com/jcrozier/java-maven-junit-helloworld.git</developerConnection>
  </scm>
   <build>
     <plugins>
