@@ -103,17 +103,16 @@
           <artifactId>jgitflow-maven-plugin</artifactId>
           <version>1.0-m5.1</version
           <configuration>
-                    <allowSnapshots>true</allowSnapshots>
-                    <enableFeatureVersions>true</enableFeatureVersions>
-                    <pushFeatures>true</pushFeatures>
-                    <pushReleases>true</pushReleases>
-                    <autoVersionSubmodules>true</autoVersionSubmodules>
-                    <defaultOriginUrl>git@github.com/jcrozier/java-maven-junit-helloworld.git</defaultOriginUrl>
+            <allowSnapshots>true</allowSnapshots>
+            <enableFeatureVersions>true</enableFeatureVersions>
+            <pushFeatures>true</pushFeatures>
+            <pushReleases>true</pushReleases>
+            <autoVersionSubmodules>true</autoVersionSubmodules>
+            <defaultOriginUrl>git@github.com/jcrozier/java-maven-junit-helloworld.git</defaultOriginUrl>
             <username>jcrozier</username>
             <password>${env.PASSWORD}</password>
           </configuration>
       </plugin>
-    </plugins>
     </plugins>
   </build>
 
