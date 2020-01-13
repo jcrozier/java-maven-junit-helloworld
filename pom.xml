@@ -9,7 +9,7 @@
   <packaging>jar</packaging>
   <scm>
     <connection>scm:git:https://${env.GIT_USERNAME}:${env.GIT_PASSWORD}@github.com/jcrozier/java-maven-junit-helloworld</connection>
-    <developerConnection>scm:git:https://${env.GIT_USERNAME}:${env.GIT_PASSWORD}@github.com/jcrozier/java-maven-junit-helloworld.git</developerConnection>
+    <developerConnection>scm:git:https://${env.GIT_USERNAME}:${env.GIT_PASSWORD}@github.com/jcrozier/java-maven-junit-helloworld</developerConnection>
     <url>https://github.com/jcrozier/java-maven-junit-helloworld</url>
   </scm>
   
