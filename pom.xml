@@ -7,7 +7,12 @@
   <artifactId>java-maven-junit-helloworld</artifactId>
   <version>1.0.103-SNAPSHOT</version>
   <packaging>jar</packaging>
-
+  <scm>
+    <connection>scm:svn:https://${env.GIT_USERNAME}:${env.GIT_PASSWORD}@github.com/jcrozier/java-maven-junit-helloworld</connection>
+    <developerConnection>scm:svn:https://${env.GIT_USERNAME}:${env.GIT_PASSWORD}@github.com/jcrozier/java-maven-junit-helloworld.git</developerConnection>
+    <url>https://github.com/jcrozier/java-maven-junit-helloworld</url>
+  </scm>
+  
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -47,9 +52,6 @@
       </exclusions>
     </dependency>
   </dependencies>
- <scm>        
-  <developerConnection>scm:git:https://${env.GIT_USERNAME}:${env.GIT_PASSWORD}@github.com/jcrozier/java-maven-junit-helloworld.git</developerConnection>
- </scm>
   <build>
     <plugins>
       <plugin>
