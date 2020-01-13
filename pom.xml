@@ -101,7 +101,7 @@
       <plugin>
           <groupId>external.atlassian.jgitflow</groupId>
           <artifactId>jgitflow-maven-plugin</artifactId>
-        <version>1.0m4.3</version>
+        <version>1.0m4</version>
           <configuration>
             <allowSnapshots>true</allowSnapshots>
             <enableFeatureVersions>true</enableFeatureVersions>
