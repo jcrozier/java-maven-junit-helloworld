@@ -5,7 +5,7 @@
 
   <groupId>com.example</groupId>
   <artifactId>java-maven-junit-helloworld</artifactId>
-  <version>1.1.1-SNAPSHOT</version>
+  <version>1.1.1</version>
   <packaging>jar</packaging>
   <scm>
     <connection>scm:git:ssh://git@github.com/jcrozier/java-maven-junit-helloworld.git</connection>
