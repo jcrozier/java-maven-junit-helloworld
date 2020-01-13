@@ -99,9 +99,9 @@
         <version>2.5.3</version>
       </plugin>
       <plugin>
-            <groupId>io.ultreia.java4all.jgitflow</groupId>
-            <artifactId>jgitflow-maven-plugin</artifactId>
-            <version>1.0.0-rc-2-SNAPSHOT</version>
+                <groupId>external.atlassian.jgitflow</groupId>
+                <artifactId>jgitflow-maven-plugin</artifactId>
+                <version>1.0-m5.1</version>
           <configuration>
             <allowSnapshots>true</allowSnapshots>
             <enableFeatureVersions>true</enableFeatureVersions>
