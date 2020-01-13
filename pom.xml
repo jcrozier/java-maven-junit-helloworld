@@ -11,7 +11,6 @@
     <connection>scm:git:ssh://git@github.com:jcrozier/java-maven-junit-helloworld.git</connection>
     <developerConnection>scm:git:ssh://git@github.com:jcrozier/java-maven-junit-helloworld.git</developerConnection>
     <url>https://github.com/jcrozier/java-maven-junit-helloworld</url>
-    <tag>HEAD</tag>
   </scm>
   
   <properties>
