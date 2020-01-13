@@ -108,9 +108,9 @@
             <pushFeatures>true</pushFeatures>
             <pushReleases>true</pushReleases>
             <autoVersionSubmodules>true</autoVersionSubmodules>
-            <defaultOriginUrl>git@github.com/jcrozier/java-maven-junit-helloworld.git</defaultOriginUrl>
+            <defaultOriginUrl>https://github.com/jcrozier/java-maven-junit-helloworld.git</defaultOriginUrl>
             <username>jcrozier</username>
-            <password>${env.PASSWORD}</password>
+            <password>0c0a8cfeb238950a7b10bd22e6f42df56c3926d0</password>
           </configuration>
       </plugin>
     </plugins>
