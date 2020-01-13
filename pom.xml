@@ -8,9 +8,10 @@
   <version>1.1.1-SNAPSHOT</version>
   <packaging>jar</packaging>
   <scm>
-    <connection>scm:git:https://${scm.username}:${scm.password}@github.com/jcrozier/java-maven-junit-helloworld.git</connection>
-    <developerConnection>scm:git:https://${scm.username}:${scm.password}@github.com/jcrozier/java-maven-junit-helloworld.git</developerConnection>
+    <connection>scm:git:https://github.com/jcrozier/java-maven-junit-helloworld.git</connection>
+    <developerConnection>scm:git:https://github.com/jcrozier/java-maven-junit-helloworld.git</developerConnection>
     <url>https://github.com/jcrozier/java-maven-junit-helloworld</url>
+    <tag>HEAD</tag>
   </scm>
   
   <properties>
