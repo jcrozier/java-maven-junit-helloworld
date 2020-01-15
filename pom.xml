@@ -98,19 +98,16 @@
         <version>2.5.3</version>
       </plugin>
       <plugin>
-                <groupId>external.atlassian.jgitflow</groupId>
-                <artifactId>jgitflow-maven-plugin</artifactId>
-                <version>1.0-m5</version>
-          <configuration>
-            <allowSnapshots>true</allowSnapshots>
-            <enableFeatureVersions>true</enableFeatureVersions>
-            <pushFeatures>true</pushFeatures>
-            <pushReleases>true</pushReleases>
-            <autoVersionSubmodules>true</autoVersionSubmodules>
-            <defaultOriginUrl>https://github.com/jcrozier/java-maven-junit-helloworld.git</defaultOriginUrl>
-            <username>jcrozier</username>
-            <password>0c0a8cfeb238950a7b10bd22e6f42df56c3926d0</password>
-          </configuration>
+        <groupId>org.owasp</groupId>
+        <artifactId>dependency-check-maven</artifactId>
+        <version>5.2.4</version>
+          <executions>
+            <execution>
+              <goals>
+                <goal>check</goal>
+              </goals>
+            </execution>
+          </executions>
       </plugin>
     </plugins>
   </build>
